@@ -1,0 +1,36 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES2020",
+//     "module": "ES2020",
+//     "moduleResolution": "node",
+//     "esModuleInterop": true,
+//     "resolveJsonModule": true,
+//     "strict": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "noEmit": true,
+//     "moduleDetection": "force"
+//   },
+//   "include": ["src"]
+// }
+
+{
+  "compilerOptions": {
+    "target": "ES2020",                          // Target modern JavaScript
+    "module": "ESNext",                          // Use native ES Modules
+    "moduleResolution": "node",                  // Resolve node-style modules
+    "outDir": "dist",                          // Output directory after compilation
+    "rootDir": "./src",                          // Root directory of source files
+    "esModuleInterop": true,                     // Enables interop for CommonJS <-> ESM
+    "forceConsistentCasingInFileNames": true,    // Prevent case mismatch issues
+    "strict": true,                              // Enable all strict type checks
+    "skipLibCheck": true,                        // Skip type checking for node_modules
+    "resolveJsonModule": true,                   // Allow importing `.json` files
+    "sourceMap": true,                           // Generate .map files for debugging
+    "isolatedModules": true,                     // Required for `ts-node` + ESM
+    "noEmit": false                               // Allow emitting compiled JS
+  },
+  "include": ["src"],
+ 
+}
+

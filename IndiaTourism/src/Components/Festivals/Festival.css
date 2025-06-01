@@ -1,0 +1,83 @@
+/* .festival-container {
+  padding: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.festival-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color:white;
+}
+
+.festival-error {
+  color: #dc2626;
+  margin-top: 1rem;
+}
+
+.festival-list {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+  color: white;
+}
+
+.festival-list li {
+  margin-bottom: 0.5rem;
+} */
+
+
+
+
+
+/* Festival.css */
+
+.festival-container {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.festival-title {
+  font-size: 1.75rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.festival-error {
+  color: red;
+  font-weight: bold;
+}
+
+.festival-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.festival-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.festival-item h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #34495e;
+}
+
+.festival-item p {
+  font-size: 0.95rem;
+  color: #555;
+}

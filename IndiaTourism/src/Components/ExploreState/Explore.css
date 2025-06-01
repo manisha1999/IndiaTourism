@@ -1,0 +1,198 @@
+/* 
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+  
+  .container, .imageGallery, .productList {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  
+
+  img {
+    
+    width : 200px;
+    height : 200px;
+    display: block;
+  }
+  
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .imageGallery {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .imageGallery img {
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .section p {
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .touristList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .touristItem {
+    margin-bottom: 30px;
+  }
+  
+  .touristItem img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .productList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .productItem {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  }
+  
+  .productItem img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+   /* Explore.css */
+
+.explore-container {
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.explore-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.explore-gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.explore-gallery img {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.explore-section {
+  margin-bottom: 2rem;
+}
+
+.explore-section h2 {
+  font-size: 1.75rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.explore-section p,
+.explore-section li {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.tourist-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tourist-list li {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.tourist-list img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 6px;
+}
+
+.products-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+  justify-content: center;
+}
+
+.products-list li {
+  width: 220px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.products-list img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+}

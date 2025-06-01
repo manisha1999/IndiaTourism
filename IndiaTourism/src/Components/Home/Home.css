@@ -1,0 +1,78 @@
+/* .states {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  .state {
+    
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-basis: 25%;
+  } */
+
+  .main_body {
+    padding: 2rem 1rem;
+    background: #f0f4ff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Centered container with max-width and auto margin */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .main_body h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #1a1a40;
+  }
+  
+  /* States grid */
+  .states {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Individual state card */
+  .state {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    padding: 1rem;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .state:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .state img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    object-fit: cover;
+  }
+  h4{color:black}

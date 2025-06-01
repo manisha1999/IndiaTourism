@@ -1,0 +1,16 @@
+/* Footer.css */
+
+.footer {
+    background-color: #222;          /* Dark background */
+    color: #eee;                     /* Light text */
+    text-align: center;              /* Center the text */
+    padding: 15px 0;                 /* Vertical padding */
+    font-size: 14px;                 /* Slightly smaller text */
+                   
+    width: 100%;                    /* Full width */
+    bottom: 0;                      /* At the bottom of the page */
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.3); /* subtle shadow */
+    z-index: 1000;                  /* Above other content */
+    font-family: Arial, sans-serif; /* Clean font */
+  }
+  
