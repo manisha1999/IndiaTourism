@@ -16,7 +16,8 @@ APIs & Services: - World Tourist Attractions API (via RapidAPI) - Local Expr
 1. Clone the repository
 git clone https://github.com/your-username/incredible-india-explorer.git cd incredible-india-explorer
 🧩 Project Structure
-/IndiaTourism       => React frontend (Explore, FestivalList, RatingReviews) /server        => Node.js Express backend (Festivals API, Reviews API) /public        => Static assets
+/IndiaTourism       => React frontend (Explore, FestivalList, RatingReviews) 
+/backend        => Node.js Express backend (Festivals API, Reviews API) /public        => Static assets
 🛠️ Frontend Setup (React)
 cd IndiaTourism
 npm i
@@ -28,7 +29,8 @@ Make sure to update your .env file with: REACT_APP_RAPIDAPI_KEY=your_rapidapi_
 cd backend
 node index.js
 
-Backend will run on http://localhost:5000/ Make sure you have a festivals.json or connected database in the backend to serve the /api/festivals route.
+Backend will run on http://localhost:5000/  
+Make sure you have a festivals.json or connected database in the backend to serve the /api/festivals route.
 
 🧪 API Reference
 📍 Get State Data: GET https://world-tourist-attractions-api.p.rapidapi.com/state?state=gujarat
